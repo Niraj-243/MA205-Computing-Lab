@@ -9,7 +9,9 @@
    
 %}
 %%
-
+                    % This function plots the value of integral I of f over the limits a to b versus n (n point formula).
+                    % where n varies from 0 to m.
+                    % And also, one or more of a and b can be infinte and -infinite respectively. 
 function T = run(f,a,b,m)
     
                     % y is function handle form of symbolic expression f
