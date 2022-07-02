@@ -11,7 +11,7 @@
 %%
 
                       % This function calculates integration of
-                      % exp(-t)*f(t) with t varying from -inf to +inf
+                      % exp(-t^2)*f(t) with t varying from -inf to +inf
                       % using gauss hermite quadrature method
 
 function I = Gauss_hermite(f,n)
