@@ -9,7 +9,8 @@
    
 %}
 %%
-
+                    % This function plots the value of integral I of f(x)*exp(-x^2) over the limits -inf to +inf versus n (n point formula).
+                    % where n varies from 0 to m.
 function T = run1(f,m)
 
     syms t;         % symbolic constant t
