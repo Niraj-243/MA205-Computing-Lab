@@ -9,7 +9,7 @@
    
 %}
 %%
-
+                                        % This function returns the indegral of f over the limite a to b.
 function I = Gauss_legendre( f ,a,b, n)
     I = 0;                              % Initialize I with 0
     syms t;                             % symbolic constant t
