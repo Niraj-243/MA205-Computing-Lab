@@ -1,4 +1,4 @@
-# Gauss-Legendre branch
+# Gauss-Legendre
 
 In the Gauss-Legendre branch, there are 5 .m files, the work of each of them are explained as comments.
 run.m file takes parameters as function, lower limit, upper limit and m (from 0 upto m point formula is applied) and plots 
